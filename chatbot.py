@@ -23,7 +23,7 @@ Run:
 
 import os
 import streamlit as st
-from google import genai
+import google.genai as genai
 from google.genai import types
 import time
 
@@ -219,3 +219,4 @@ if len(st.session_state.history) > 0 and st.session_state.history[-1][0] == "use
 # ----------------------
 # End of file
 # ----------------------
+
